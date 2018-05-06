@@ -9,8 +9,7 @@ Run `git clone https://github.com/NikGioulos/idocs-demo` to download the project
 
 
 ## Application Entry Point
-1) main method is located in the ExamMain class
-2) META-INF/config.properties indicates the files paths and names
+1) main method is located in the DemoMain class
 3) Java8 is prerequisite since Lambda expressions are used in application
 
 ##Extra Questions
