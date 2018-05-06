@@ -15,12 +15,12 @@ Run `git clone https://github.com/NikGioulos/idocs-demo` to download the project
 ##Extra Questions
 1) each UTF-8 char needs maximum 4bytes. 
 So, each line requires on average 4*8 = 32 bytes.
-So, in case all the String lines are unique, maximum is 200*1024*1024/32
+So, in case all the String lines are unique, maximum is 200x1024x1024/32
 
 2) i would use new String() and i would force GC to clear unneeded objects from heap
 
 3) i would use some adjustments to improve performance 
-For example, we cound use Guava utilities for collectios (instead of plain java)
+For example, we could use Guava utilities for collections (instead of plain java)
 
 4) i would use a profiler to get detailed information about the behavior and performance 
 of each part of your code to find the bottleneck
